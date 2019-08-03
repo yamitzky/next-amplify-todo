@@ -1,0 +1,17 @@
+{
+    "projectName": "amplify-todo",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "lib",
+            "DistributionDir": "dist",
+            "BuildCommand": "yarn build",
+            "StartCommand": "yarn dev"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
