@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
     "@emotion/core": "^10.0.14",
@@ -12,11 +13,18 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@types/node": "^12.6.8",
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-storysource": "^5.1.11",
+    "@storybook/react": "^5.1.11",
+    "@types/node": "^12.7.2",
     "@types/react": "^16.8.23",
+    "@types/storybook__react": "^4.0.2",
     "@types/terser-webpack-plugin": "^1.2.1",
     "@typescript-eslint/eslint-plugin": "^1.12.0",
     "@typescript-eslint/parser": "^1.12.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.0.1",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^13.0.1",
